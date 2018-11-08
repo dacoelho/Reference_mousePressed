@@ -2,16 +2,16 @@
 void setup(){
 
 size(1000,500);
-background(255);
+
 }
 void draw(){
   if(mousePressed){
-    fill(0);
-      ellipse(mouseX,mouseY,20,20);
-  }else{
     fill(255);
-      ellipse(mouseX,mouseY,50,50);
+      rect(mouseX,mouseY,100,100);
+  }else{
+    fill(100);
+      rect(mouseX,mouseY,100,100);
   }
-  noStroke();
+
  
 }
